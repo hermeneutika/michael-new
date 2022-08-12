@@ -1,0 +1,27 @@
+    #nav {
+        margin:00px auto;
+        width:630px;
+				
+        }
+    #nav ul {
+        list-style:none;
+        background-color:#64abfb;
+        }
+    #nav ul li {
+        display:inline-block;
+        line-height:44px;
+        }
+    #nav ul li a {
+        margin:10px;
+        color:#fff;
+        padding:4px;
+        font-size:20px;
+        text-decoration:none;
+        }
+    #nav ul li a:hover {
+        border-bottom:3px #FFF solid;
+        }
+    #nav ul li .active {
+        border-bottom:3px #FFF solid;
+        }
+				

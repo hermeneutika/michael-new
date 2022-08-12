@@ -1,0 +1,81 @@
+/*** comments this is the main body ***/
+
+
+h1 
+{
+text-align:center;
+color:white;
+}
+
+h2
+{
+text-align:center;
+color:white;
+}
+
+body
+{
+background-color: blue;
+}
+
+/*** not sure about this lot any more ***/
+.resizedTextbox input 
+{
+margin-left: 20em;
+}
+
+.resizedTextbox label
+{
+position:absolute;
+}
+
+.test1 
+{
+width: 600px;
+height: 200px; 
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+div.container {
+    position: fixed;
+    bottom: 500;
+    right: 100;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+/*** all the above may be superflous now. ***/
+/*** this is for a float left box ***/
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+box {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+box ul {
+    list-style-type: none;
+    padding: 0;
+}
+			
+box ul a {
+    text-decoration: none;
+}
+
+/*html, body { height: 100%; padding: 5; margin: 5; }
+div { width: 25%; height: 25%; float: left; }*/
+#first {color:red;}
+#div1 {title="test";width:25%;height:25%;float:left; color:black;font-size: 15;resize:both; overflow:auto; background: #DDD; }
+#div2 {width:25%;height:25%;float:left; color:black;font-size: 15;resize:both; overflow:auto; background: #AAA; }
+#div3 {width:25%;height:25%;float:left; color:black;font-size: 15;resize:both; overflow:auto; background: #777; }
+#div4 {width:25%;height:25%;float:left; color:black;font-size: 15;resize:both; overflow:auto; background: #444; }
+#div5 {width:25%;height:25%;float:left; color:black;font-size: 15;resize:both; overflow:auto; background: #444; }
