@@ -16,7 +16,7 @@
   <?php
   $count=0;
 $comment=$_POST['comment'];
-  $query2="select * from $comment WHERE text !=''";
+  $query2="select * from $comment WHERE text !='' limit 2,2";
   $result2 = mysqli_query($conn, $query2);
   while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) { 
   while ($row = $result2->fetch_assoc()) {
