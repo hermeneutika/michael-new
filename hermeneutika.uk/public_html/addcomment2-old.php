@@ -21,8 +21,18 @@
   });
   </script>
 -->
+<script type="text/javascript">
+  tinymce.init({
+selector: 'textarea',
+plugins: 'paste',
+menubar: 'edit',
+paste_as_text: 'true',
+toolbar: 'paste pastetext'
 
 
+
+  });
+  </script>
   <title>Document</title>
   
 </head>
@@ -52,28 +62,8 @@ echo $row["full"];
 $search=$row["full"];
 echo "search=".$search;
 $_SESSION["biblefull"]=$search;
-// 23-8-22 adding the text retrieval query toready to input into tinymce
-// ok works out of the box
-$query2="select * from $comment where n like '$book%' and chapt='$chapt' and verse='$verse'";
-$result2 = mysqli_query($conn, $query2);
-$row = mysqli_fetch_array($result2, MYSQLI_BOTH);
-echo '<span style ="color: yellow;"> '.$row["text"].'</span>';
-// 23-8-22 now i need to move the javascript of tiny to here after the query and hopefully insert the text straight into tiny?
-//previously tinymce javascript i had at the top of this file
-
 ?>
-<script type="text/javascript">
-  tinymce.init({
-selector: 'textarea',
-plugins: 'paste',
-menubar: 'edit',
-paste_as_text: 'true',
-toolbar: 'paste pastetext'
 
-
-
-  });
-  </script>
 <form action="page2.php" method="post">
     <textarea name="myTextarea"></textarea>
     <input type="submit" value="go" />
