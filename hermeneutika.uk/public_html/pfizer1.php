@@ -11,7 +11,8 @@
 </head>
 <body>
 <?php include ("conn.php"); ?>
-  <?php include ("menu1.php"); ?> 
+  <?php include ("menu1.php"); ?>
+   
   
 </body>
 </html>
