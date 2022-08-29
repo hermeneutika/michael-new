@@ -14,17 +14,40 @@
   <?php include ("menu1.php"); ?> 
   
   <?php
+  $comment=$_POST['comment'];
+  $recordstart=0;
+  $pagesize=4;
+  echo "recordstart=".$recordstart;
+  echo "pagesize=".$pagesize;
   $count=0;
-$comment=$_POST['comment'];
-  $query2="select * from $comment WHERE text !='' limit 2,2";
+  $query="select * from $comment where text !=''";
+  $result=mysqli_query($conn,$query);
+  $totalrows= mysqli_num_rows($result);
+  echo "totalrows=".$totalrows;
+
+  $query2="select * from $comment WHERE text !='' limit $recordstart,$pagesize";
+
   $result2 = mysqli_query($conn, $query2);
-  while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) { 
-  while ($row = $result2->fetch_assoc()) {
-    $count++;
-  echo "count=".$count;
-    echo $row['full']. " ".'<br>'.'<br>'.$row['text']; 
+  $row_cnt = mysqli_num_rows($result2);
+  echo "row_cnt=".$row_cnt;
+ // while ($row = mysqli_fetch_array($result2, MYSQLI_ASSOC)) { 
+ // while ($row = $result2->fetch_assoc()) {
+   // $count++;
+ // echo "count=".$count;
+   // echo $row['full']. " ".'<br>'.'<br>'.$row['text']; 
      #echo $row['full'].'<br>';
-          }
+     //     }
+ // }
+ if ($recordstart >0) {
+  $prev=$recordstart-$pagesize;
+  $url=$_SERVER['PHP_SELF'].$recordstart=$prev;
+  printf("<a href='$s'>Previous Page</a>",$url);
+ }
+ if ($totalrows >($recordstart + $pagesize))
+ {
+  $next=$recordstart+$pagesize;
+  $url=$_SERVER['PHP_SELF']."$recordstart=$next";
+  printf("<a href='%s'>Next Page</a>",$url);
  }
  ?>
 
