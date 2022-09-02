@@ -172,7 +172,7 @@
       <li><a href="#">international law</a></li>
 </ul>
 </li>
-    
+<li><a href="industry1.php">Industry</a></li>
     
     </li>
       <li><a href="#">Work</a>
@@ -190,4 +190,5 @@
 
 </li>
     </ul>
+    
   </nav>
