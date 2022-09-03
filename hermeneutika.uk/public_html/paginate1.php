@@ -20,6 +20,8 @@
   //  }  
   
     //define total number of results you want per page  
+    //$comment=$_POST['comment'];
+  //echo "comment=".$comment;
     $results_per_page = 1;  
   
     //find the total number of results stored in the database  

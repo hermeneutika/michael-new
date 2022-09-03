@@ -13,8 +13,8 @@
 <?php include ("conn.php"); ?>
   <?php include ("menu1.php"); ?> 
   <h1>Welcome to commentary scroll and display</h1>
-<form action="scroll2.php" method="post">
-<label for="comment">Comment</label><br>
+<form action="paginate1.php" method="post">
+<label for="comment">comment</label><br>
   <input type="text" id="comment" name="comment"><br>
 
 
