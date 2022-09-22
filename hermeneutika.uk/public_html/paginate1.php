@@ -9,7 +9,8 @@
 <?php include ("conn.php"); ?>
   <?php include ("menu1.php"); ?> 
 <?php  
-  
+   $comment=$_POST['comment'];
+   echo "comment=".$comment;
     //database connection  
     //$conn = mysqli_connect('localhost', 'root', '');  
     //if (! $conn) {  
@@ -77,6 +78,7 @@ echo "<br>";
   
     //display the link of the pages in URL  
     for($page = 1; $page<= $number_of_page; $page++) {  
+       #echo "comment=".$comment;
         echo '<a href = "paginate1.php?page=' . $page . '">' . $page . ' </a>';  
     }  
   
