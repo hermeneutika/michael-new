@@ -21,7 +21,7 @@
        <li><a href="showall.php">Show all entries for a commentary</a></li>
        <li><a href="biblelink1.php">Add a Bible link</a></li>
        <li><a href="displaylinks.php">Display Bible links</a></li>
-       <li><a href="paginate1.php">Scroll through a commentary!</a></li>
+       <li><a href="scroll1.php">Scroll through a commentary!</a></li>
   
 </body>
 </html>

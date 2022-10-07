@@ -44,6 +44,7 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
+        <li><a href="heal1.php">Divine healing</a>
           <li><a href="war1.php">spiritual warfare</a>
           <ul>
             <li><a href="war2-books.php">Warfare books</a></li>
@@ -106,8 +107,16 @@
       
         
       
+       
 
         <ul>
+        <li><a href="ebike1.php">Ebikes and magnets and renewable power</a>
+        <ul>
+        <li><a href="ebike2.php">magnets</a></li>
+        <li><a href="ebike3.php">renewables</a></li>
+        <li><a href="ebike4.php">research and development anyone?</a></li>
+        <li><a href="ebike5.php">Is biology even a science?</a></li>
+</ul>
           <li><a href="pfizer1.php">Pfizer CEO</a></li>
           <li><a href="warming1.php">So called Global warming</a></li>
           <li><a href="crit1.php">Independent critical thought?</a></li>

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.13  (Win32)">
+	<META NAME="CREATED" CONTENT="20220910;15530626">
+	<META NAME="CHANGED" CONTENT="20220910;16233357">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		P.western { so-language: en-GB }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+	<link rel="stylesheet" href="menu.css" />
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="site.css" />
+</HEAD>
+<BODY LANG="en-GB" DIR="LTR">
+<?php include ("conn.php"); ?> 
+<?php include ("menu1.php"); ?>
+<P CLASS="western" STYLE="margin-bottom: 0cm"><FONT SIZE=5>Divine
+Healing</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0cm"><FONT SIZE=5>The vexed
+question arises yet again. Especially in the light of the death of
+our Queen. But the question of mortality and death have also to be
+dealt with . We all die. Most I think hate death and even fear it. Of
+course such things cannot be discussed in polite or any other type of
+society! And yet death is the end of all people. Even women die. And
+yet the question of healing wont go away for me. Even if the death is
+final and ultimate for every person who has or will ever live. So
+ultimately a root cause analysis of death and disease seems to me to
+be required. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0cm"><FONT SIZE=5>If one
+does not accept the existence of a Creator God. Then I guess death
+and disease are just random elements in a meaningless existence. But
+even the death of a Queen hurts. Everything in me cries out against
+death and disease. Yet these are unpleasant facts of existence. But
+if one is a atheist then so what and who cares. Its all meaningless.
+Another meaningless life and death in the meaningless universe. This
+for me is the logical extreme of the atheist position. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0cm"><FONT SIZE=5>But if one
+accepts the idea of a Creator God, and especially the Christian God,
+especially the Christian God. How does one square the claims that He
+is a God of love and mercy and compassion, and yet we look around
+this world, and see the misery death injustice,starvation etc etc. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0cm"><FONT SIZE=5>These are
+not new questions. Surely it is the job of philosophy and  theology
+to answer these questions. </FONT>
+</P>
+</BODY>
+</HTML>
