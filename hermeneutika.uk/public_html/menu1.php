@@ -92,9 +92,10 @@
       
 </ul>
 </li>
-<li><a href="#">Thrash</a>
+<li><a href="#">Christian Rock,Metal,punk etc</a>
 <ul>
 <li><a href="#">Vengeance Rising</a></li>
+
 <li><a href="#">Deliverance</a></li>
 </ul>
 </li>
