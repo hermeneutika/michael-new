@@ -14,6 +14,8 @@
   <?php include ("menu1.php"); ?>  
 <?php include ("theo1.txt"); ?>  
 
+<a style=color:red href="hicks1.php">Evil and the God of love-J Hicks</a>
+
   
 </body>
 </html>
