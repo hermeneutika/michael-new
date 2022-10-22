@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="tinymce/js/tinymce/tinymce.min.js"></script>
+  <!-- <script src="tinymce/js/tinymce/tinymce.min.js"></script> -->
  <!-- <script type="text/javascript">
   tinymce.init({
     height: '300',
@@ -64,18 +64,14 @@ echo '<span style ="color: yellow;"> '.$row["text"].'</span>';
 ?>
 <script type="text/javascript">
   tinymce.init({
-selector: 'textarea',
-plugins: 'paste',
-menubar: 'edit',
-paste_as_text: 'true',
-toolbar: 'paste pastetext'
+selector: 'textarea'
 
 
 
   });
   </script>
 <form action="page2.php" method="post">
-    <textarea name="myTextarea"></textarea>
+    <textarea name="myTextarea" rows="100" cols="100"></textarea>
     <input type="submit" value="go" />
 </form>
 </body>
