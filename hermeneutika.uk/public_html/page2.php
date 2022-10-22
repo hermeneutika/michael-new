@@ -15,6 +15,7 @@
   # retrieves the new comment for the verse
   $mytextarea=$_POST['myTextarea'];
   $commentary=$_SESSION['commentary'];
+  $space="<br> <br>";
   echo "mytextarea".$mytextarea;
   echo "commentary=".$commentary;
   # NEED TO TEST IF THE TEXT FIELD is empty or retrieve contents for the bibleverse
@@ -28,7 +29,7 @@
 
   # the concat command might do it all in one!
   //$sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
-  $sql="update $commentary set text=concat(text,'$mytextarea') where full=$biblefull";
+  $sql="update $commentary set text=concat(text,'$space','$mytextarea') where full=$biblefull";
   $result=$conn->query($sql);
 
 
