@@ -105,11 +105,17 @@
 
       <li><a href="#" class="nav-active">Sciences</a>
       
-        
+    <ul>    
       
-       
-
+      
+        
+        <li><a href="compscience1.php">Computer science</a>
         <ul>
+         <li><a href="booth1.php">Kathleen Booth</a></li>
+         <li><a href="booth2.php">Kathleen Booths dissertation</a></li>
+        
+</ul>
+        
         <li><a href="ebike1.php">Ebikes and magnets and renewable power</a>
         <ul>
         <li><a href="ebike2.php">magnets</a></li>

@@ -15,20 +15,27 @@
   # retrieves the new comment for the verse
   $mytextarea=$_POST['myTextarea'];
   $commentary=$_SESSION['commentary'];
+  $space="<br> <br>";
+  echo "mytextarea".$mytextarea;
   echo "commentary=".$commentary;
   # NEED TO TEST IF THE TEXT FIELD is empty or retrieve contents for the bibleverse
-  #$sql="select text from michael where full=$biblefull";
-  #$result=$conn->query($sql);
-  #$row = mysqli_fetch_array($result, MYSQLI_BOTH);
-  #echo "existing text= " . $row["text"] ;
+  $sql="select text from $commentary where full=$biblefull";
+  $result=$conn->query($sql);
+  $row = mysqli_fetch_array($result, MYSQLI_BOTH);
+  echo "existing text= " . $row["text"] ;
   #echo "biblefull= ".$biblefull;
   #echo "mytext area= ".$mytextarea;
   #then i need to concat the existing comment with the new comment
 
   # the concat command might do it all in one!
+<<<<<<< HEAD
   echo "textarea=".$mytextarea;
 //  $sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
 $sql="update $commentary"
+=======
+  //$sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
+  $sql="update $commentary set text=concat(text,'$space','$mytextarea') where full=$biblefull";
+>>>>>>> 963504a8b91e4402e0e597dee888655ba9f851d4
   $result=$conn->query($sql);
 
 
