@@ -26,7 +26,9 @@
   #then i need to concat the existing comment with the new comment
 
   # the concat command might do it all in one!
-  $sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
+  echo "textarea=".$mytextarea;
+//  $sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
+$sql="update $commentary"
   $result=$conn->query($sql);
 
 
