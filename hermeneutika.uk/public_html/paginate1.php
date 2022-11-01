@@ -33,6 +33,7 @@
   echo "<br>";
     //determine the total number of pages available  
     $number_of_page = ceil ($number_of_result / $results_per_page);  
+    echo "no of results=".$number_of_result;
   
     //determine which page number visitor is currently on  
     if (!isset ($_GET['page']) ) {  
