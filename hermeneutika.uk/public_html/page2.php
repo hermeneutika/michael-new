@@ -28,8 +28,14 @@
   #then i need to concat the existing comment with the new comment
 
   # the concat command might do it all in one!
+<<<<<<< HEAD
+  echo "textarea=".$mytextarea;
+//  $sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
+$sql="update $commentary"
+=======
   //$sql="update $commentary set text=CONCAT(text,'$mytextarea') where full=$biblefull";
   $sql="update $commentary set text=concat(text,'$space','$mytextarea') where full=$biblefull";
+>>>>>>> 963504a8b91e4402e0e597dee888655ba9f851d4
   $result=$conn->query($sql);
 
 
