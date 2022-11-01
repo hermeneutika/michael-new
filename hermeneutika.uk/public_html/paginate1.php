@@ -26,7 +26,7 @@
     $results_per_page = 1;  
   
     //find the total number of results stored in the database  
-    $query = "select * from michael limit 0,50";  
+    $query = "select * from michael limit 0,150";  
     $result = mysqli_query($conn, $query);  
     $number_of_result = mysqli_num_rows($result);  
   echo "no of result=".$number_of_result;
