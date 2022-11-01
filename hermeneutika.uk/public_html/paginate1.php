@@ -26,13 +26,14 @@
     $results_per_page = 1;  
   
     //find the total number of results stored in the database  
-    $query = "select * from michael limit 0,50";  
+    $query = "select * from michael limit 0,150";  
     $result = mysqli_query($conn, $query);  
     $number_of_result = mysqli_num_rows($result);  
   echo "no of result=".$number_of_result;
   echo "<br>";
     //determine the total number of pages available  
     $number_of_page = ceil ($number_of_result / $results_per_page);  
+    echo "no of results=".$number_of_result;
   
     //determine which page number visitor is currently on  
     if (!isset ($_GET['page']) ) {  
