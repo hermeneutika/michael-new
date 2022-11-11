@@ -44,6 +44,11 @@
        
         <a href="#" class="nav-active">Bible</a>
         <ul>
+          <li><a href="pray1.php">Prayer</a>
+          <ul>
+            <li><a href="inter1.php">Intercessory prayer</a></li>
+            <li><a href="pray2.php">Prayer</a></li>
+</ul>
         <li><a href="heal1.php">Divine healing</a>
           <li><a href="war1.php">spiritual warfare</a>
           <ul>
