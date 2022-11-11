@@ -105,8 +105,17 @@
 
       <li><a href="#" class="nav-active">Sciences</a>
       
-    <ul>    
-      
+    <ul> 
+      <li><a href="philo1.php">Philosophy</a>
+      <li><a href="theo1.php">Theology</a>   
+      <li><a href="physics1.php">physics</a>
+      <li><a href="math1.php">Mathematics</a>
+      <li><a href="sociology1.php">Sociology</a>
+      <ul>
+        <li><a href="socknoweldge1.php">Sociology of knowledge</a></li>
+        <li><a href="socreligion1.php">Sociology of religion</a></li>
+        <li><a href="soctech1.php">Sociology of technology</a></li>
+</ul>
       
         
         <li><a href="compscience1.php">Computer science</a>
