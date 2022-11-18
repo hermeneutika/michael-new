@@ -54,6 +54,10 @@ echo "temp=".$temp;
   $result = mysqli_query($conn, $query);
   #echo mysqli_error();
 $row= mysqli_fetch_array($result, MYSQLI_BOTH);
+?>
+<div style="color: red">
+<br>
+<?php
 $linkamend=$row["text"];
 $linklocate=$row["full"];
 echo "linkamend= ".$linkamend;
@@ -71,5 +75,6 @@ echo "linkfull=".$linklocate;
   echo "out of loop";
 }
 ?>
+</div>
 </body>
 </html>
