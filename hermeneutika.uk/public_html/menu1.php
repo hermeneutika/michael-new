@@ -40,16 +40,21 @@
   
 </ul>
 </li>
-      <li>
+
        
-        <a href="#" class="nav-active">Bible</a>
+       <li> <a href="#" class="nav-active">Bible</a>
         <ul>
+        <li><a href="#">Worship</a>
+        <ul>
+        <li><a href="#">Exclusive Psalmody</a></li>
+</li>
+</ul>
           <li><a href="pray1.php">Prayer</a>
           <ul>
             <li><a href="inter1.php">Intercessory prayer</a></li>
             <li><a href="pray2.php">Prayer</a></li>
 </ul>
-        <li><a href="heal1.php">Divine healing</a>
+        <li><a href="heal1.php">Divine healing</a></li>
           <li><a href="war1.php">spiritual warfare</a>
           <ul>
             <li><a href="war2-books.php">Warfare books</a></li>
@@ -206,7 +211,7 @@
 </li>
 <li><a href="industry1.php">Industry</a></li>
     
-    </li>
+  
       <li><a href="#">Work</a>
     <ul>
     <li><a href="cv.php">the cv</a></li>
