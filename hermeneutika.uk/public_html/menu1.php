@@ -47,6 +47,7 @@
         <li><a href="#">Worship</a>
         <ul>
         <li><a href="#">Exclusive Psalmody</a></li>
+        <li><a href="general-worship1.php">General worship</a></li>
 </li>
 </ul>
           <li><a href="pray1.php">Prayer</a>
