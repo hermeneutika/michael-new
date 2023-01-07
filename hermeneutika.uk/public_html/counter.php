@@ -11,7 +11,7 @@ $count=$count + 1 ;
 
 echo '<p style="color: white;> "$count"</p>' ;
 echo $count;
-echo " hits last reset 23 Aug  2022" ;
+echo " hits last reset 6 jan  2023" ;
 echo "\n" ;
 // '<p style="color: red; text-align: center">
 //      Request has been sent. Please wait for my reply!
